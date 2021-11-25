@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@jakedeichert/watchexec@^1.12.0-r3":
+  version "1.12.0-r3"
+  resolved "https://registry.yarnpkg.com/@jakedeichert/watchexec/-/watchexec-1.12.0-r3.tgz#e3fa95bcc92c9ea1eb0f788034bb134744f13be2"
+  integrity sha512-ueBjPxaiBmzJ65IGpVLEfOI1W0pvBN2T7TNI+As4ZK5IlPvGwugOwNJ/xEtVIdKrmBSW7IOswjdPIP+qLqeelg==
+
+"@rescript/react@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.10.3.tgz#a2a8bed6b017940ec26c2154764b350f50348889"
+  integrity sha512-Lf9rzrR3bQPKJjOK3PBRa/B3xrJ7CqQ1HYr9VHPVxJidarIJJFZBhj0Dg1uZURX+Wg/xiP0PHFxXmdj2bK8Vxw==
+
 bs-fetch@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.2.tgz#37d982e9f79b9bc44c23e87ae78ccbee1f869adf"
@@ -14,22 +24,15 @@ bs-webapi@^0.19.1:
   dependencies:
     bs-fetch "^0.6.2"
 
-fastpack@^0.9.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/fastpack/-/fastpack-0.9.1.tgz#791f5a30a707ae25567f1a9e47607c1c4d1bff0b"
-  integrity sha512-Pons5DJAfBCMkaFQ2Sx08PapmrTYmbgA+cMq5efjsJiOHQLwmRbiFN3oUcIH3lfDFfiHOhtKlrfl1C8+wjApHQ==
-  dependencies:
-    loader-runner "^3.0.0"
+decco@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/decco/-/decco-1.5.0.tgz#4a74d5cb9ffc7b3dd821f9e8a77ff633f05e752c"
+  integrity sha512-d+QQ+4AgEHyqK0Ums0xsgxRjC7b1IVe96M/I8y9SZ+uo0bR0Fi4zM9BJnzDcaKwUPM/z5ze5klfRscZkz+psRg==
 
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
-
-loader-runner@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-3.1.0.tgz#e9440e5875f2ad2f968489cd2c7b59a4f2847fcb"
-  integrity sha512-wE/bOCdTKMR2rm7Xxh+eirDOmN7Vx7hntWgiTayuFPtF8MgsFDo49SP8kkYz8IVlEBTOtR7P+XI7bE1xjo/IkA==
 
 loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
@@ -75,11 +78,6 @@ react@^16.8.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-
-reason-react@>=0.7.1:
-  version "0.9.1"
-  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.9.1.tgz#30a887158200b659aa03e2d75ff4cc54dc462bb0"
-  integrity sha512-nlH0O2TDy9KzOLOW+vlEQk4ExHOeciyzFdoLcsmmiit6hx6H5+CVDrwJ+8aiaLT/kqK5xFOjy4PS7PftWz4plA==
 
 rescript@^9.1.4:
   version "9.1.4"

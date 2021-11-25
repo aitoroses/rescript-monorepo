@@ -3,16 +3,13 @@
   "reason": {
     "react-jsx": 3
   },
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
   "package-specs": [
     {
-      "module": "commonjs",
+      "module": "es6",
       "in-source": true
     }
   ],
+  "sources": [],
   "suffix": ".bs.js",
   "pinned-dependencies": [
     "a",
@@ -22,7 +19,7 @@
   "bs-dependencies": [
     "b",
     "c",
-    "reason-react",
+    "@rescript/react",
     "bs-webapi"
   ],
   "warnings": {

@@ -3,6 +3,12 @@
   "reason": {
     "react-jsx": 3
   },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
   "sources": [
     {
       "dir": "src",
@@ -16,7 +22,7 @@
   "suffix": ".bs.js",
   "namespace": true,
   "bs-dependencies": [
-    "reason-react"
+    "@rescript/react"
   ],
   "warnings": {
     "number": "A+101",

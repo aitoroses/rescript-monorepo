@@ -3,6 +3,12 @@
   "reason": {
     "react-jsx": 3
   },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
   "sources": [
     {
       "dir": "src"
@@ -14,9 +20,11 @@
   ],
   "suffix": ".bs.js",
   "bs-dependencies": [
-    "reason-react",
+    "decco",
+    "@rescript/react",
     "b"
   ],
+  "ppx-flags": [ "decco/ppx" ],
   "warnings": {
     "number": "A+101",
     "error": true
