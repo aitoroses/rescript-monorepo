@@ -1,0 +1,15 @@
+{
+  "name": "c-reasonml",
+  "version": "0.1.0",
+  "keywords": [
+    "BuckleScript",
+    "ReasonReact",
+    "reason-react"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "b": "~0.1.0",
+    "decco": "^1.5.0"
+  }
+}

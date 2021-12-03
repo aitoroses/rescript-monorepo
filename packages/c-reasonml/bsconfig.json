@@ -1,5 +1,5 @@
 {
-  "name": "reason_monorepo",
+  "name": "c-reasonml",
   "reason": {
     "react-jsx": 3
   },
@@ -9,21 +9,22 @@
       "in-source": true
     }
   ],
-  "sources": [],
+  "sources": [
+    {
+      "dir": "src"
+    },
+    {
+      "dir": "test",
+      "type": "dev"
+    }
+  ],
   "suffix": ".bs.js",
-  "pinned-dependencies": [
-    "a",
-    "b",
-    "c",
-    "c-reasonml"
-  ],
   "bs-dependencies": [
-    "b",
-    "c",
-    "c-reasonml",
+    "decco",
     "@rescript/react",
-    "bs-webapi"
+    "b"
   ],
+  "ppx-flags": [ "decco/ppx" ],
   "warnings": {
     "number": "A+101",
     "error": true
